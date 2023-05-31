@@ -1,0 +1,69 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 50px 50px 0 50px;
+    background-color: #faf9f6;
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh;
+}
+
+.logo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(254, 179, 3);
+    font-size: 2rem;
+}
+
+.Dada{
+    float: left;
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+}
+
+.main{
+    flex: 1;
+}
+
+.Slogan{
+    font-size: 4rem;
+}
+
+.card{
+    width: 45%;
+}
+
+.Right{
+    float: right;
+}
+
+.Left{
+    float: left;
+}
+
+@media (max-width: 680px){
+    .Logo{
+        width: 100px;
+    }
+
+    .Slogan{
+        font-size: 2rem;
+    }
+
+    .card{
+        width: 100%;
+        display: block;
+        margin-bottom: 10px;
+        text-align: justify;
+    }
+
+    .card img {
+        margin-bottom: 10px;
+        width: 100%;
+        display: inline;
+        object-fit: cover;
+    }
+}
+
+span{
+    color: rgb(3, 3, 159);
+}
